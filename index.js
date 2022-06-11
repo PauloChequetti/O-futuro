@@ -22,7 +22,11 @@ const respostas = [
   "Concentre-se e pergunte novamente.",
   "Sinais apontam que sim.",
   "Nem eu sei.",
-  "Com certeza não."
+  "Com certeza não.",
+  "Melhor não criar expectativas.",
+  "Sim, acredite.",
+  "Sem perspectivas pra isso.",
+  "Pare, pense e pergunte."
 ]
 
 // clicar em fazer pergunta
@@ -50,4 +54,8 @@ function fazerPergunta() {
     elementoResposta.style.opacity = 0;
     buttonPerguntar.removeAttribute("disabled")
   }, 3000)
+  setInterval(function () {
+    elementoResposta.style.opacity = 0;
+    buttonPerguntar.removeAttribute("disabled")
+  }, 10000)
 }
