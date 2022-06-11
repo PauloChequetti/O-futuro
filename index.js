@@ -22,8 +22,7 @@ const respostas = [
   "Concentre-se e pergunte novamente.",
   "Sinais apontam que sim.",
   "Nem eu sei.",
-  "Com certeza não.",
-  "Você não merece."
+  "Com certeza não."
 ]
 
 // clicar em fazer pergunta
